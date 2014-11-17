@@ -11,6 +11,7 @@
 
 #![reexport_test_harness_main = "test_main"]
 
+#[cfg(test)]
 extern crate green;
 extern crate libc;
 #[phase(plugin, link)]
